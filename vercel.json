@@ -1,6 +1,5 @@
 {
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/[[...path]]" },
-    { "src": "/", "dest": "/api/[[...path]]" }
+    { "src": "/(.*)", "dest": "/api/[[...path]]" }
   ]
 }
